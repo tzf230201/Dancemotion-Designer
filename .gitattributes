@@ -61,3 +61,10 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+# Aturan Line Endings untuk proyek Unity
+*.cs     text eol=crlf    # Script C# menggunakan CRLF
+*.shader text eol=lf       # Shader file menggunakan LF
+*.meta   text eol=lf       # Meta file Unity menggunakan LF
+*.asset  text eol=lf       # Asset file Unity menggunakan LF
+*.mat    text eol=lf       # Material file menggunakan LF
+*.inputactions text eol=lf # File Input Actions menggunakan LF
